@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: url('../image-selection/collage-alderin-rouge.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 500px;
+    height: auto;
+}
+
+.content-boxes {
+    display: flex;
+    gap: 10px;
+}
+
+.content-box {
+    background: #333;
+    color: white;
+    padding: 16px;
+    width: 300px;
+    text-align: center;
+    border: 2mm double #333;
+    margin: 5px;
+    transition: border-color 0.5s;
+}
+
+.content-box:hover {
+    border-color: #743535; /* Change this dynamically in JS if needed */
+}
+
+.content-box.maroquinerie:hover {
+    border-color: #743535;
+}
+
+.content-box.tapisserie:hover {
+    border-color: #E6B823;
+}
+
+.description {
+    margin: 0 0 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: #743535; /* Change this dynamically in JS if needed */
+    margin-top: 21px;
+    border: 2mm double;
+    transition: border-color 0.5s;
+}
+
+.button.maroquinerie {
+    border-color: #743535;
+}
+
+.button.tapisserie {
+    background: #E6B823;
+    border-color: #E6B823;
+}
+
+.button a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.button:hover {
+    border-color: #333;
+}
+
+.button a:hover {
+    text-decoration: none;
+}
+
+.arrow {
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+    left: -3px;
+}
+
+.double-arrow {
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+    left: -11px;
+}
+
+.button-text {
+    margin: 0;
+    height: 10px;
+}
+
+.button-text:hover {
+    text-decoration: underline;
+}
+
+.titre {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
