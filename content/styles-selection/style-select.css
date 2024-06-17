@@ -27,12 +27,15 @@ html, body {
 }
 
 .logo img {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
 }
 
 .content-boxes {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
 }
 
@@ -40,7 +43,8 @@ html, body {
     background: #333;
     color: white;
     padding: 16px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     text-align: center;
     border: 2mm double #333;
     margin: 5px;
@@ -86,7 +90,7 @@ html, body {
 
 .button a {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     text-decoration: none;
     display: inline-flex;
