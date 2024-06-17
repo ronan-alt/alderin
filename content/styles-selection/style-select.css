@@ -5,7 +5,7 @@ html, body {
 }
 
 .container {
-    background-image: url('content/image-selection/collage-alderin-rouge.png') no-repeat center center;
+    background-image: url('https://github.com/ronan-alt/alderin/blob/732b290ee7998613fd14de5aaec531706be78b95/content/image-selection/collage-alderin-rouge.png') no-repeat center center;
     background-size: cover;
     height: 100vh;
     width: 100%;
