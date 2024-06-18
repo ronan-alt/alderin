@@ -500,3 +500,17 @@ footer p {
         margin-bottom: 20px;
     }
 }
+/* Hide scrollbars for the entire webpage */
+body {
+    overflow: hidden; /* Completely hide the scrollbars */
+}
+
+body {
+    overflow: auto; /* Allow scrolling but hide scrollbars */
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
