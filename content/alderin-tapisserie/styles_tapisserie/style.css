@@ -428,8 +428,8 @@ padding: 20px 0;
     align-items: center;
     position: relative;
     text-align: center;
-    width: 900px;
-    height: 1600px;
+    width: 1600px;
+    height: 900px;
     border: 1px solid #000; /* Juste pour visualiser l'élément */
 }
 
