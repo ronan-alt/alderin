@@ -255,7 +255,7 @@ section {
 }
 
 .hero {
-    background-image: url("/content/alderin-tapisserie/images_tapisserie/backgroundalderin.jpg");
+    background-image: url("../alderin-tapisserie/images_tapisserie/backgroundalderin.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
