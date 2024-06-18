@@ -4,10 +4,10 @@
 }
 
 .brand {
-    max-width: 100%; /* Ensure the logo does not exceed its container's width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Make sure it behaves as a block element */
-    margin: 0 auto; /* Center align the image horizontally */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Style de base */
@@ -22,7 +22,7 @@ body {
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
-    padding-top: 60px; /* Ajuster la valeur pour compenser la hauteur du header fixe */
+    padding-top: 60px;
 }
 
 a {
@@ -428,6 +428,9 @@ padding: 20px 0;
     align-items: center;
     position: relative;
     text-align: center;
+    width: 900px;
+    height: 1600px;
+    border: 1px solid #000; /* Juste pour visualiser l'élément */
 }
 
 /* Style the yellow header */
@@ -519,7 +522,7 @@ main {
     background-color: #E6B823; /* Yellow background for mobile menu */
     padding: 10px 0;
     text-align: center;
-    z-index: 999; /* Ensure it's above content */
+    z-index: 999;
   }
 
   .barre.active {
