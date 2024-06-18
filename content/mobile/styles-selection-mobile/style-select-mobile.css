@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: url('../image-selection/collage-alderin-rouge.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.content-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.content-box {
+    background: #333;
+    color: white;
+    padding: 16px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    border: 2mm double #333;
+    margin: 5px;
+    transition: border-color 0.5s;
+}
+
+.content-box.maroquinerie {
+    border-color: #743535;
+}
+
+.content-box.tapisserie {
+    border-color: #E6B823;
+}
+
+.description {
+    margin: 0 0 10px;
+    font-size: 14px;
+}
+
+.button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: #743535;
+    margin-top: 21px;
+    border: 2mm double;
+    transition: border-color 0.5s;
+    width: 100%;
+    max-width: 280px;
+}
+
+.button.maroquinerie {
+    border-color: #743535;
+}
+
+.button.tapisserie {
+    background: #E6B823;
+    border-color: #E6B823;
+}
+
+.button a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+
+.arrow {
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.double-arrow {
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.button-text {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.titre {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
