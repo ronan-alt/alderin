@@ -54,11 +54,11 @@ html, body {
     transition: border-color 0.5s;
 }
 
-.content-box.maroquinerie {
+.content-box.maroquinerie:hover {
     border-color: #743535;
 }
 
-.content-box.tapisserie {
+.content-box.tapisserie:hover {
     border-color: #E6B823;
 }
 
@@ -100,6 +100,10 @@ html, body {
     position: relative;
     width: 100%;
     justify-content: center;
+}
+
+.button:hover {
+    border-color: #333;
 }
 
 .arrow {
