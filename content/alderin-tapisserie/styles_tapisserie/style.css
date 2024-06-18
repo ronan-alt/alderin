@@ -121,16 +121,31 @@ section {
 }
 
 .hero .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the section */
+    height: 100%; /* Full height of the section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF; /* Text color for overlay */
     padding: 20px;
-    text-align: center;
-    color: #FFFFFF;
 }
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     color: #FFFFFF;
+}
+
+.hero .brand {
+    max-width: 100%; /* Ensure the logo does not exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make sure it behaves as a block element */
+    margin: 0 auto; /* Center align the image horizontally */
 }
 
 .hero h1 {
@@ -340,8 +355,9 @@ footer p {
 
 @media (max-width: 480px) {
     .hero h1 {
-        font-size: 2rem;
-    }
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
 
     .portfolio .gallery-container {
         width: 100%;
@@ -404,14 +420,14 @@ padding: 20px 0;
 
 .hero {
     background-image: url("../../alderin-tapisserie/images_tapisserie/backgroundalderin.jpg");
-    background-size: cover;
+    background-size: cover; /* Cover the entire area */
     background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    text-align: center; /* Center align text and brand */
+    text-align: center;
 }
 
 /* Style the yellow header */
