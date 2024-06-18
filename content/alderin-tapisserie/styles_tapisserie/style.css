@@ -43,7 +43,7 @@ padding: 20px 0;
 
 /* Style the yellow header */
 header {
-  background-color: yellow;
+  background-color: #E6B823;
   color: white;
   padding: 10px 0; /* Adjust padding as needed */
   text-align: center;
@@ -127,7 +127,7 @@ main {
     top: 50px;
     left: 0;
     right: 0;
-    background-color: yellow; /* Yellow background for mobile menu */
+    background-color: #E6B823; /* Yellow background for mobile menu */
     padding: 10px 0;
     text-align: center;
     z-index: 999; /* Ensure it's above content */
