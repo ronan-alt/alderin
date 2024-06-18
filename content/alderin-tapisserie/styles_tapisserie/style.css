@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+.hero {
+    background-image: url("../../alderin-tapisserie/images_tapisserie/backgroundalderin.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 /* Style the yellow header */
 header {
   background-color: yellow;
