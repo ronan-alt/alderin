@@ -1,3 +1,352 @@
+/* Style de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding-top: 60px; /* Ajuster la valeur pour compenser la hauteur du header fixe */
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #E6B823;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.menu-toggle span {
+    font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-toggle span:hover {
+    color: #750a0a;
+    transform: scale(1.2);
+}
+
+.logo-alderin {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.barre {
+    display: flex;
+    gap: 15px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.service a {
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.service a:hover {
+    color: #750a0a;
+    transform: scale(1.2);
+}
+
+.search-bar {
+    position: absolute;
+    right: 20px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-form button {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.search-form button:hover {
+    color: #750a0a;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.hero {
+    background-image: url("../images_tapisserie/tapisserie_background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.about .overlay {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2, .services h2, .portfolio h2, .partenaires h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #750a0a;
+}
+
+.services h3, .services h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.partos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.particulier, .professionnels {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.etat {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: '•';
+    color: #750a0a;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.portfolio .gallery-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio .gallery {
+    display: flex;
+    overflow: hidden;
+}
+
+.portfolio .image-container {
+    flex: 1 0 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.portfolio img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio .overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio .image-container:hover .overlay-text {
+    opacity: 1;
+}
+
+.portfolio .arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #750a0a;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+.partenaires {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partenaires a {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #750a0a;
+    color: #FFFFFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.partenaires a:hover {
+    background-color: #E6B823;
+    transform: scale(1.1);
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #750a0a;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #E6B823;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #E6B823;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #750a0a;
+    transform: scale(1.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .barre {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .portfolio .gallery-container {
+        width: 100%;
+    }
+
+    .partos {
+        flex-direction: column;
+    }
+
+    .particulier, .professionnels {
+        margin-bottom: 20px;
+    }
+}
 /* Reset default margins and paddings */
 * {
   margin: 0;
