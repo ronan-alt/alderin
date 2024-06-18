@@ -105,13 +105,13 @@ html, body {
 .arrow {
     margin-left: 5px;
     position: relative;
-    top: 1px;
+    top: 2px;
 }
 
 .double-arrow {
     margin-left: 5px;
     position: relative;
-    top: 1px;
+    top: 2px;
 }
 
 .button-text {
