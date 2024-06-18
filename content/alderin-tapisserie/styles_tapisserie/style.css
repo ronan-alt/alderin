@@ -8,12 +8,7 @@
     height: auto; /* Maintain aspect ratio */
     display: block; /* Make sure it behaves as a block element */
     margin: 0 auto; /* Center align the image horizontally */
-    position: absolute; /* Position the logo absolutely */
-    top: 50%; /* Align to the middle vertically */
-    left: 50%; /* Align to the center horizontally */
-    transform: translate(-50%, -50%); /* Adjust to center perfectly */
 }
-
 
 /* Style de base */
 * {
@@ -132,8 +127,15 @@ section {
     color: #FFFFFF;
 }
 
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #FFFFFF;
+}
+
 .hero h1 {
     font-size: 3rem;
+    margin-bottom: 20px; /* Adjust spacing as needed */
 }
 
 .about .overlay {
@@ -409,6 +411,7 @@ padding: 20px 0;
     justify-content: center;
     align-items: center;
     position: relative;
+    text-align: center; /* Center align text and brand */
 }
 
 /* Style the yellow header */
