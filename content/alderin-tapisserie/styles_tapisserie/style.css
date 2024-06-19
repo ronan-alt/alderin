@@ -63,6 +63,10 @@ header {
     justify-content: space-between;
 }
 
+header {
+    justify-content: center;
+}
+
 .service a {
     text-decoration: none;
     color: #000;
@@ -113,12 +117,19 @@ height: 40px;
     margin-left: 20px; /* Space between logo and navigation */
 }
 
+.barre {
+    justify-content: space-between;
+}
+
 .barre .service {
-    margin: 0 15px;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #ddd; /* Example item background color */
+    margin: 0 5px; /* Adjust margin between items */
+    text-align: center; /* Center text within items */
 }
 
 .search-bar {
-    margin-left: 100px;
+    margin-left: 300px;
     display: flex;
     align-items: center;
     flex-shrink: 0; /* Prevents the search bar from shrinking */
