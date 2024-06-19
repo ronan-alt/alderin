@@ -46,6 +46,10 @@ nav {
     padding: 10px;
 }
 
+nav {
+    justify-content: center;
+}
+
 header {
     background-color: #E6B823;
     height: 12.5vh; /* 1/8th of the viewport height */
