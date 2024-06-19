@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.hero {
+    background-image: url("../../images_tapisserie/tapisserie_background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 header {
     background-color: #E6B823;
     padding: 10px 20px;
