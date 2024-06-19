@@ -108,6 +108,7 @@ body {
 }
 
 .search-form input[type="text"] {
+    float: right;
     padding: 10px;
     font-size: 16px;
     border: none;
