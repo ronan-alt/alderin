@@ -74,7 +74,7 @@ header {
 
 .image-container {
 position: relative;
-width: 30%;
+width: 15%;
 }
 
 .image-container img {
@@ -117,19 +117,14 @@ height: 40px;
     margin-left: 20px; /* Space between logo and navigation */
 }
 
-.barre {
-    justify-content: space-between;
-}
-
 .barre .service {
     padding: 10px; /* Adjust padding as needed */
-    background-color: #ddd; /* Example item background color */
     margin: 0 5px; /* Adjust margin between items */
     text-align: center; /* Center text within items */
 }
 
 .search-bar {
-    margin-left: 300px;
+    margin-left: 350px;
     display: flex;
     align-items: center;
     flex-shrink: 0; /* Prevents the search bar from shrinking */
