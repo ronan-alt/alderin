@@ -118,7 +118,7 @@ height: 40px;
 }
 
 .search-bar {
-    margin-left: auto;
+    margin-left: 100px;
     display: flex;
     align-items: center;
     flex-shrink: 0; /* Prevents the search bar from shrinking */
