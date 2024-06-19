@@ -6,7 +6,7 @@
 }
 
 .hero {
-    background-image: url("../../images_tapisserie/backgroundalderin.jpg");
+    background-image: url("../images_tapisserie/backgroundalderin.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -88,6 +88,7 @@ header {
 }
 
 .search-bar {
+    margin-left: auto;
     display: flex;
     align-items: center;
     flex-shrink: 0; /* Prevents the search bar from shrinking */
@@ -132,10 +133,10 @@ body {
     justify-content: center;
 }
 
-.search-form button {
-    background-color: #a07b00;
-}
-
 .search-form button i {
     margin: 0;
+}
+
+.search-form button {
+    background-color: #a07b00;
 }
