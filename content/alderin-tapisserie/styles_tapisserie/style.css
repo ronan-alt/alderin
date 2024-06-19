@@ -136,7 +136,7 @@ height: 40px;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    margin-left: 190px; /* Space between logo and navigation */
+    margin-left: 200px; /* Space between logo and navigation */
 }
 
 .barre .service {
