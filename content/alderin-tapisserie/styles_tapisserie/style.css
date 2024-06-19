@@ -26,8 +26,11 @@
 
 .hero .outlined-text {
     font-size: 3rem; /* Adjust the size as needed */
-    color: yellow;
-    text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
+    color: #E6B823;
+    text-shadow: -1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
     margin-bottom: 20px; /* Space between text and image */
 }
 
