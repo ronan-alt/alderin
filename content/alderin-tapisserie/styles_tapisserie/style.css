@@ -16,6 +16,13 @@
     position: relative;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
 header {
     background-color: #E6B823;
     height: 12.5vh; /* 1/8th of the viewport height */
@@ -27,6 +34,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.service a {
+    text-decoration: none;
+    color: #000;
 }
 
 .logo {
