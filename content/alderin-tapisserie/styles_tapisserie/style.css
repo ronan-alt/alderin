@@ -17,11 +17,15 @@
 
 header {
     background-color: #E6B823;
+    height: 12.5vh; /* 1/8th of the viewport height */
     padding: 10px 20px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 body {
@@ -29,45 +33,44 @@ body {
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
-    padding-top: 60px; /* Ajuster la valeur pour compenser la hauteur du header fixe */
+    padding-top: 12.5vh; /* Matches the header height */
 }
 
 .search-form {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .search-form input[type="text"] {
-padding: 10px;
-font-size: 16px;
-border: none;
-border-radius: 20px 0 0 20px;
-outline: none;
-width: 200px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 40px;
 }
 
 .search-form button {
-padding: 10px 15px;
-font-size: 16px;
-border: none;
-border-radius: 0 20px 20px 0;
-cursor: pointer;
-background-color: #fdc201;
-color: #fff;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-height: 40px;
-display: flex;
-align-items: center;
-justify-content: center;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    background-color: #fdc201;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.search-form button
-{
-background-color: #a07b00;
+.search-form button {
+    background-color: #a07b00;
 }
 
 .search-form button i {
-margin: 0;
+    margin: 0;
 }
