@@ -114,7 +114,7 @@ height: 40px;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    margin-left: 170px; /* Space between logo and navigation */
+    margin-left: 190px; /* Space between logo and navigation */
 }
 
 .barre .service {
@@ -124,7 +124,7 @@ height: 40px;
 }
 
 .search-bar {
-    margin-left: 200px;
+    margin-left: 180px;
     display: flex;
     align-items: center;
     flex-shrink: 0; /* Prevents the search bar from shrinking */
