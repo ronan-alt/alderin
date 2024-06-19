@@ -64,6 +64,12 @@ header {
     color: #000;
 }
 
+.image-container img {
+    display: flex;
+    height: 100px;
+    width:auto;
+}
+
 .logo {
     margin-right: 200px
     display: flex;
