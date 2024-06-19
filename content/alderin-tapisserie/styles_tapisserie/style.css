@@ -16,6 +16,29 @@
     position: relative;
 }
 
+.hero .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero .outlined-text {
+    font-size: 3rem; /* Adjust the size as needed */
+    color: yellow;
+    text-shadow: 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
+    margin-bottom: 20px; /* Space between text and image */
+}
+
+.hero .brand {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
 nav {
     display: flex;
     justify-content: space-between;
