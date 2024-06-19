@@ -32,7 +32,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    flex: 1;
+    flex-shrink: 0; /* Prevents the logo from shrinking */
 }
 
 .logo img {
@@ -44,7 +44,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 2;
+    flex-grow: 1;
+    margin-left: 20px; /* Space between logo and navigation */
 }
 
 .barre .service {
@@ -54,8 +55,7 @@ header {
 .search-bar {
     display: flex;
     align-items: center;
-    flex: 1;
-    justify-content: flex-end;
+    flex-shrink: 0; /* Prevents the search bar from shrinking */
 }
 
 body {
