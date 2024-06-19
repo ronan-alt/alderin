@@ -60,6 +60,35 @@
     position: relative;
 }
 
+.tarif {
+    background-image: url("../images_tapisserie/wood-pattern.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content-boxes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Couv, .Ref {
+    background: #333;
+    color: white;
+    padding: 16px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    border: 2mm double #333;
+    margin: 5px;
+    transition: border-color 0.5s;
+}
+
 
 nav {
     display: flex;
