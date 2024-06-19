@@ -38,6 +38,22 @@ header {
     width: auto;
 }
 
+.barre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.barre .service {
+    margin: 0 15px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
