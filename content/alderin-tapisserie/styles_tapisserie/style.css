@@ -38,6 +38,28 @@
     height: auto;
 }
 
+.about {
+    background-image: url("../images_tapisserie/fondalderin2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.portfolio {
+    background-image: url("../images_tapisserie/wood-pattern.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 
 nav {
     display: flex;
