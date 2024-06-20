@@ -81,7 +81,19 @@
     gap: 10px;
 }
 
-.Couv, .Ref {
+.Couv {
+    background: #333;
+    color: white;
+    padding: 16px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    border: 2mm double #333;
+    margin: 5px;
+    transition: border-color 0.5s;
+}
+
+.Ref {
     background: #333;
     color: white;
     padding: 16px;
