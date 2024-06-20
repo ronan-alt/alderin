@@ -56,6 +56,25 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.services {
+     background-color: #E6B823;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.services .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 .portfolio {
     background-image: url("../images_tapisserie/wood-pattern.png");
     background-size: cover;
@@ -65,6 +84,14 @@
     justify-content: center;
     align-items: center;
     position: relative;
+}
+
+.portfolio .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .tarif {
@@ -78,8 +105,24 @@
     position: relative;
 }
 
+.tarif .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .contact {
     background-color: #E6B823;
+}
+
+.contact .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .content-boxes {
