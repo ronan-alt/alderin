@@ -39,7 +39,7 @@
 }
 
 .about {
-    background-image: url("../images_tapisserie/fondalderin2.jpg");
+    background-color: #E6B823;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -69,6 +69,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
+}
+
+.contact {
+    background-color: #E6B823;
 }
 
 .content-boxes {
