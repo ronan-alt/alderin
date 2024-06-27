@@ -104,7 +104,7 @@ section {
     background-image: url("../images_tapisserie/wood-pattern.png");
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    min-height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,6 +117,7 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 100%;
 }
 
 .contact {
@@ -136,34 +137,39 @@ section {
 
 .content-boxes {
     display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap; /* Allow boxes to wrap if necessary */
-    justify-content: center;
+    justify-content: space-around; /* Distribute boxes evenly */
+    gap: 20px; /* Space between boxes */
+    flex-wrap: nowrap; /* Ensure boxes don't wrap to the next line */
+    width: 100%; /* Make sure it takes full width of the overlay */
+    max-width: 1200px; /* Maximum width for the container */
 }
 
 .Couv {
     background: #333;
     color: white;
     padding: 16px;
+    flex: 1;
     width: 100%;
     max-width: 400px;
     text-align: left;
     border: 2mm double #333;
     margin: 5px;
     transition: border-color 0.5s;
+    box-sizing: border-box;
 }
 
 .Ref {
     background: #333;
     color: white;
     padding: 16px;
+    flex: 1;
     width: 100%;
     max-width: 400px;
     text-align: left;
     border: 2mm double #333;
     margin: 5px;
     transition: border-color 0.5s;
+    box-sizing: border-box;
 }
 
 .Couv ul, .Ref ul {
